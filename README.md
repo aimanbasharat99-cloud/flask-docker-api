@@ -1,4 +1,4 @@
-# 🐳 Dockerised Flask REST API
+# Dockerised Flask REST API
 
 > A containerised REST API built with Flask and Docker — serving image processing and datetime endpoints.
 
@@ -6,7 +6,7 @@ Built as **Assignment 3 for Software Integration II during my MSc in Internation
 
 ---
 
-## 💡 What It Does
+## What It Does
 
 A lightweight Flask API with two endpoints:
 - **GET `/datetime`** — returns the current server date and time
@@ -16,7 +16,7 @@ The entire app is containerised with **Docker**, meaning anyone can run it insta
 
 ---
 
-## 🏗️ How It Works
+## How It Works
 
 ```
 User sends request
@@ -31,17 +31,17 @@ test_api.py verifies both endpoints automatically
 
 ---
 
-## ✨ Features
+## Features
 
-- 🐳 **Fully Dockerised** — runs anywhere with one command
-- 🔌 **REST API** — clean endpoints, easy to integrate
-- 🖼️ **Image processing** — horizontal flip via Pillow
-- 🧪 **Automated tests** — `test_api.py` tests both endpoints
-- ⚡ **Lightweight** — only Flask and Pillow as dependencies
+- **Fully Dockerised** — runs anywhere with one command
+- **REST API** — clean endpoints, easy to integrate
+- **Image processing** — horizontal flip via Pillow
+- **Automated tests** — `test_api.py` tests both endpoints
+- **Lightweight** — only Flask and Pillow as dependencies
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -52,7 +52,7 @@ test_api.py verifies both endpoints automatically
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 **Option A — With Docker (recommended)**
 
@@ -72,7 +72,7 @@ python app.py
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -98,7 +98,7 @@ curl -X POST -F "image=@test.jpg" http://localhost:5000/flip --output flipped.jp
 
 ---
 
-## 🧪 Run Automated Tests
+## Run Automated Tests
 
 ```bash
 python test_api.py
@@ -108,7 +108,7 @@ This tests both endpoints and saves the flipped image as `flipped.jpg`.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 flask-docker-api/
@@ -121,7 +121,7 @@ flask-docker-api/
 
 ---
 
-## 👤 Author
+## Author
 
 **Aiman Basharat Abbasi**
 MSc — International Biometrics & Intelligent Vision, UPEC Paris
